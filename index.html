@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak Angka</title>
+    <link rel="stylesheet" href="style.css">      
+</head>
+<body>
+    <div class="container">
+        <h1>Tebak Angka</h1>
+        <p>Masukkan angka antara 1 dan 100:</p>
+        <input type ="number" Id = "guess" min = "1" max = "100">
+        <button onlick="checkGuess()">Tebak</button>>
+            <p Id="result"></p>
+            <p Id="attempts"></p>
+            <button Id="restart" class="hidden"onlick="restartGame()">Mulai lagi</button>
+    </div>
+
+    <script> src = "script.js" </script>
+</body>
+</html>
